@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.author       = { "Chen Zeyu" => "zeyufly@gmail.com" }
   s.source       = { :git => "https://github.com/chenzeyu/FYAnimationGuide.git", :tag => s.version.to_s }
   s.source_files  = "Classes", "Classes/**/*.{h,m}"
-  s.exclude_files = "FYWelcomeView/FYAnimationGuideView.{h.m},FYWelcomeView/FYGuidePage.{h.m}"
+  s.exclude_files = "FYWelcomeView/FYAnimationGuideView.{h.m}", "FYWelcomeView/FYGuidePage.{h.m}"
   s.requires_arc = true
   s.platform = :ios, '6.0'
   s.dependency "pop", "~> 1.0"
