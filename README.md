@@ -1,4 +1,9 @@
 FYAnimationGuide
 ================
 
-A Simple Drop-in Guide View with 
+FYAnimationGuide is a drop-in view to build app guides.
+
+It uses Facebook/pop to animate views.
+
+demo:
+![](welcome.gif)
