@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41C47C92196803AE007E903F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C47C91196803AE007E903F /* Foundation.framework */; };
+		41C47C94196803AE007E903F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C47C93196803AE007E903F /* CoreGraphics.framework */; };
+		41C47C96196803AE007E903F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C47C95196803AE007E903F /* UIKit.framework */; };
+		41C47C9C196803AE007E903F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C47C9A196803AE007E903F /* InfoPlist.strings */; };
+		41C47C9E196803AE007E903F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C47C9D196803AE007E903F /* main.m */; };
+		41C47CA2196803AE007E903F /* FYAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C47CA1196803AE007E903F /* FYAppDelegate.m */; };
+		41C47CA5196803AE007E903F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C47CA3196803AE007E903F /* Main.storyboard */; };
+		41C47CA8196803AE007E903F /* FYViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C47CA7196803AE007E903F /* FYViewController.m */; };
+		41C47CAA196803AE007E903F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41C47CA9196803AE007E903F /* Images.xcassets */; };
+		41C47CB1196803AE007E903F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C47CB0196803AE007E903F /* XCTest.framework */; };
+		41C47CB2196803AE007E903F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C47C91196803AE007E903F /* Foundation.framework */; };
+		41C47CB3196803AE007E903F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C47C95196803AE007E903F /* UIKit.framework */; };
+		41C47CBB196803AE007E903F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C47CB9196803AE007E903F /* InfoPlist.strings */; };
+		41C47CBD196803AE007E903F /* FYWelcomeViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C47CBC196803AE007E903F /* FYWelcomeViewTests.m */; };
+		41C47CCB1968125A007E903F /* FYGuidePage.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C47CC81968125A007E903F /* FYGuidePage.m */; };
+		41C47CCC1968125A007E903F /* FYAnimationGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C47CCA1968125A007E903F /* FYAnimationGuideView.m */; };
+		EEA1227E263F4C9D925A51A3 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F1CD2FE1CAEB4732A98F15A8 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41C47CB4196803AE007E903F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C47C86196803AE007E903F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C47C8D196803AE007E903F;
+			remoteInfo = FYWelcomeView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41C47C8E196803AE007E903F /* FYAnimationGuideDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYAnimationGuideDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C47C91196803AE007E903F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41C47C93196803AE007E903F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41C47C95196803AE007E903F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41C47C99196803AE007E903F /* FYAnimationGuideDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FYAnimationGuideDemo-Info.plist"; sourceTree = "<group>"; };
+		41C47C9B196803AE007E903F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41C47C9D196803AE007E903F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41C47C9F196803AE007E903F /* FYAnimationGuideDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FYAnimationGuideDemo-Prefix.pch"; sourceTree = "<group>"; };
+		41C47CA0196803AE007E903F /* FYAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYAppDelegate.h; sourceTree = "<group>"; };
+		41C47CA1196803AE007E903F /* FYAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYAppDelegate.m; sourceTree = "<group>"; };
+		41C47CA4196803AE007E903F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41C47CA6196803AE007E903F /* FYViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FYViewController.h; sourceTree = "<group>"; };
+		41C47CA7196803AE007E903F /* FYViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYViewController.m; sourceTree = "<group>"; };
+		41C47CA9196803AE007E903F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		41C47CAF196803AE007E903F /* FYAnimationGuideDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYAnimationGuideDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C47CB0196803AE007E903F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		41C47CB8196803AE007E903F /* FYAnimationGuideDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FYAnimationGuideDemoTests-Info.plist"; sourceTree = "<group>"; };
+		41C47CBA196803AE007E903F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41C47CBC196803AE007E903F /* FYWelcomeViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYWelcomeViewTests.m; sourceTree = "<group>"; };
+		41C47CC71968125A007E903F /* FYGuidePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYGuidePage.h; sourceTree = "<group>"; };
+		41C47CC81968125A007E903F /* FYGuidePage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYGuidePage.m; sourceTree = "<group>"; };
+		41C47CC91968125A007E903F /* FYAnimationGuideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FYAnimationGuideView.h; sourceTree = "<group>"; };
+		41C47CCA1968125A007E903F /* FYAnimationGuideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FYAnimationGuideView.m; sourceTree = "<group>"; };
+		AACCC46F9E4444A9A9A91BFA /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		F1CD2FE1CAEB4732A98F15A8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C47C8B196803AE007E903F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C47C94196803AE007E903F /* CoreGraphics.framework in Frameworks */,
+				41C47C96196803AE007E903F /* UIKit.framework in Frameworks */,
+				41C47C92196803AE007E903F /* Foundation.framework in Frameworks */,
+				EEA1227E263F4C9D925A51A3 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C47CAC196803AE007E903F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C47CB1196803AE007E903F /* XCTest.framework in Frameworks */,
+				41C47CB3196803AE007E903F /* UIKit.framework in Frameworks */,
+				41C47CB2196803AE007E903F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C47C85196803AE007E903F = {
+			isa = PBXGroup;
+			children = (
+				41C47C97196803AE007E903F /* FYAnimationGuideDemo */,
+				41C47CB6196803AE007E903F /* FYWelcomeDemoTests */,
+				41C47C90196803AE007E903F /* Frameworks */,
+				41C47C8F196803AE007E903F /* Products */,
+				AACCC46F9E4444A9A9A91BFA /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		41C47C8F196803AE007E903F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C47C8E196803AE007E903F /* FYAnimationGuideDemo.app */,
+				41C47CAF196803AE007E903F /* FYAnimationGuideDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C47C90196803AE007E903F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C47C91196803AE007E903F /* Foundation.framework */,
+				41C47C93196803AE007E903F /* CoreGraphics.framework */,
+				41C47C95196803AE007E903F /* UIKit.framework */,
+				41C47CB0196803AE007E903F /* XCTest.framework */,
+				F1CD2FE1CAEB4732A98F15A8 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41C47C97196803AE007E903F /* FYAnimationGuideDemo */ = {
+			isa = PBXGroup;
+			children = (
+				41C47CC6196811E0007E903F /* FYAnimationGuide */,
+				41C47CA0196803AE007E903F /* FYAppDelegate.h */,
+				41C47CA1196803AE007E903F /* FYAppDelegate.m */,
+				41C47CA3196803AE007E903F /* Main.storyboard */,
+				41C47CA6196803AE007E903F /* FYViewController.h */,
+				41C47CA7196803AE007E903F /* FYViewController.m */,
+				41C47CA9196803AE007E903F /* Images.xcassets */,
+				41C47C98196803AE007E903F /* Supporting Files */,
+			);
+			name = FYAnimationGuideDemo;
+			path = FYWelcomeView;
+			sourceTree = "<group>";
+		};
+		41C47C98196803AE007E903F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C47C99196803AE007E903F /* FYAnimationGuideDemo-Info.plist */,
+				41C47C9A196803AE007E903F /* InfoPlist.strings */,
+				41C47C9D196803AE007E903F /* main.m */,
+				41C47C9F196803AE007E903F /* FYAnimationGuideDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C47CB6196803AE007E903F /* FYWelcomeDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				41C47CBC196803AE007E903F /* FYWelcomeViewTests.m */,
+				41C47CB7196803AE007E903F /* Supporting Files */,
+			);
+			name = FYWelcomeDemoTests;
+			path = FYWelcomeViewTests;
+			sourceTree = "<group>";
+		};
+		41C47CB7196803AE007E903F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C47CB8196803AE007E903F /* FYAnimationGuideDemoTests-Info.plist */,
+				41C47CB9196803AE007E903F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C47CC6196811E0007E903F /* FYAnimationGuide */ = {
+			isa = PBXGroup;
+			children = (
+				41C47CC71968125A007E903F /* FYGuidePage.h */,
+				41C47CC81968125A007E903F /* FYGuidePage.m */,
+				41C47CC91968125A007E903F /* FYAnimationGuideView.h */,
+				41C47CCA1968125A007E903F /* FYAnimationGuideView.m */,
+			);
+			name = FYAnimationGuide;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C47C8D196803AE007E903F /* FYAnimationGuideDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C47CC0196803AE007E903F /* Build configuration list for PBXNativeTarget "FYAnimationGuideDemo" */;
+			buildPhases = (
+				38735E26061C49A596B6B821 /* Check Pods Manifest.lock */,
+				41C47C8A196803AE007E903F /* Sources */,
+				41C47C8B196803AE007E903F /* Frameworks */,
+				41C47C8C196803AE007E903F /* Resources */,
+				4E623E6DEAB54BAC9C144ABC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FYAnimationGuideDemo;
+			productName = FYWelcomeView;
+			productReference = 41C47C8E196803AE007E903F /* FYAnimationGuideDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41C47CAE196803AE007E903F /* FYAnimationGuideDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C47CC3196803AE007E903F /* Build configuration list for PBXNativeTarget "FYAnimationGuideDemoTests" */;
+			buildPhases = (
+				41C47CAB196803AE007E903F /* Sources */,
+				41C47CAC196803AE007E903F /* Frameworks */,
+				41C47CAD196803AE007E903F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C47CB5196803AE007E903F /* PBXTargetDependency */,
+			);
+			name = FYAnimationGuideDemoTests;
+			productName = FYWelcomeViewTests;
+			productReference = 41C47CAF196803AE007E903F /* FYAnimationGuideDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C47C86196803AE007E903F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FY;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Chen Zeyu";
+				TargetAttributes = {
+					41C47CAE196803AE007E903F = {
+						TestTargetID = 41C47C8D196803AE007E903F;
+					};
+				};
+			};
+			buildConfigurationList = 41C47C89196803AE007E903F /* Build configuration list for PBXProject "FYAnimationGuideDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41C47C85196803AE007E903F;
+			productRefGroup = 41C47C8F196803AE007E903F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C47C8D196803AE007E903F /* FYAnimationGuideDemo */,
+				41C47CAE196803AE007E903F /* FYAnimationGuideDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C47C8C196803AE007E903F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C47CAA196803AE007E903F /* Images.xcassets in Resources */,
+				41C47C9C196803AE007E903F /* InfoPlist.strings in Resources */,
+				41C47CA5196803AE007E903F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C47CAD196803AE007E903F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C47CBB196803AE007E903F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38735E26061C49A596B6B821 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4E623E6DEAB54BAC9C144ABC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C47C8A196803AE007E903F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C47C9E196803AE007E903F /* main.m in Sources */,
+				41C47CA2196803AE007E903F /* FYAppDelegate.m in Sources */,
+				41C47CA8196803AE007E903F /* FYViewController.m in Sources */,
+				41C47CCB1968125A007E903F /* FYGuidePage.m in Sources */,
+				41C47CCC1968125A007E903F /* FYAnimationGuideView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C47CAB196803AE007E903F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C47CBD196803AE007E903F /* FYWelcomeViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41C47CB5196803AE007E903F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C47C8D196803AE007E903F /* FYAnimationGuideDemo */;
+			targetProxy = 41C47CB4196803AE007E903F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41C47C9A196803AE007E903F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C47C9B196803AE007E903F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41C47CA3196803AE007E903F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C47CA4196803AE007E903F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41C47CB9196803AE007E903F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C47CBA196803AE007E903F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C47CBE196803AE007E903F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41C47CBF196803AE007E903F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C47CC1196803AE007E903F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACCC46F9E4444A9A9A91BFA /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FYWelcomeView/FYAnimationGuideDemo-Prefix.pch";
+				INFOPLIST_FILE = "FYWelcomeView/FYAnimationGuideDemo-Info.plist";
+				PRODUCT_NAME = FYAnimationGuideDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41C47CC2196803AE007E903F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACCC46F9E4444A9A9A91BFA /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FYWelcomeView/FYAnimationGuideDemo-Prefix.pch";
+				INFOPLIST_FILE = "FYWelcomeView/FYAnimationGuideDemo-Info.plist";
+				PRODUCT_NAME = FYAnimationGuideDemo;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41C47CC4196803AE007E903F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FYWelcomeView.app/FYWelcomeView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FYWelcomeView/FYWelcomeView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FYWelcomeViewTests/FYAnimationGuideDemoTests-Info.plist";
+				PRODUCT_NAME = FYAnimationGuideDemoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		41C47CC5196803AE007E903F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FYWelcomeView.app/FYWelcomeView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FYWelcomeView/FYWelcomeView-Prefix.pch";
+				INFOPLIST_FILE = "FYWelcomeViewTests/FYAnimationGuideDemoTests-Info.plist";
+				PRODUCT_NAME = FYAnimationGuideDemoTests;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C47C89196803AE007E903F /* Build configuration list for PBXProject "FYAnimationGuideDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C47CBE196803AE007E903F /* Debug */,
+				41C47CBF196803AE007E903F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C47CC0196803AE007E903F /* Build configuration list for PBXNativeTarget "FYAnimationGuideDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C47CC1196803AE007E903F /* Debug */,
+				41C47CC2196803AE007E903F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C47CC3196803AE007E903F /* Build configuration list for PBXNativeTarget "FYAnimationGuideDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C47CC4196803AE007E903F /* Debug */,
+				41C47CC5196803AE007E903F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C47C86196803AE007E903F /* Project object */;
+}
