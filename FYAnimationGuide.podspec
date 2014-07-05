@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FYAnimationGuide"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "A Simple Drop-in Guide View with Animation"
   s.homepage     = "https://github.com/chenzeyu/FYAnimationGuide"
   s.license      = "MIT"
